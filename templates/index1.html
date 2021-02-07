@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <h1>Predict Burnt Calories</h1>
+
+        <h3>Enter the following values to predict the Calories burnt for the FitBit Analysis<br><span>(Enter only numerics)</span></h3>
+
+        <div class="forminput" style="text-align: center;">
+        <form action="/predict" method="post">
+            <input type="text" name="Counterfeit_Weight" placeholder="Enter Counterfeit Weight for example, 13.800" required="required">
+            <input type="text" name="Medicine_MRP" placeholder="Enter Medicine MRP, for example 110.43" required="required">
+            <input type="text" name="Availability_rating" placeholder="Enter Availability Rating, from scale 0 to 1" required="required">
+            <br>
+            <label for="Side_Effect">Choose a Side Effect level:</label>
+
+            <select name="Side_Effect" id="Side_Effect">
+              <option value=0>Mild</option>
+              <option value=1>Critical</option>
+            </select> 
+            <br>
+             <label for="Area_City">Choose a Tier City:</label>
+
+            <select name="Area_City" id="Area_City">
+              <option value=2>Tier 1</option>
+              <option value=1>Tier 2</option>
+              <option value=0>Tier 3</option>
+            </select> 
+            <br>
+            <button type="submit" class="btn" style="text-transform: capitalize;  "> Predict </button>
+        </form>
+        {{prediction_text}}
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Counterstrike</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+  <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <!-- =======================================================
+    Theme Name: Medilab
+    Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+
+<style>
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: 1px blue;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!--banner-->
+  <section id="banner" class="banner">
+    <div class="bg-color">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+              </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#banner">Home</a></li>
+                <li class=""><a href="#service">Prediction Model</a></li>
+                <li class=""><a href="#about">About</a></li>
+                <li class=""><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="banner-info">
+            <div class="banner-logo text-center">
+              <h1 style="font-size: 10vw; color: white;">CounterStrike</h1>
+            </div>
+            <div class="banner-text text-center">
+              <h1 class="white">The Counterfeit</h1>
+              <p>Let us banish the Counterfeit medicines racket!</p>
+              
+            </div>
+            <div class="overlay-detail text-center">
+              <a href="#service"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ banner-->
+  <!--service-->
+  <section id="service" class="section-padding">
+    <div class="container1">
+      <div class="row1">
+        
+        <div class="ml_implementation">
+            <h1 style="text-align: center;">Predicting number of Counterfeit Sales</h1>
+            <br><br>
+            <div class="login">
+                
+                <div class="forminput" style="text-align: center;">
+                <form action="/predict" method="post">
+                    <input type="text" name="Counterfeit_Weight" placeholder="Enter Counterfeit Weight for example, 13.800" required="required">
+                    <br><br>
+                    <input type="text" name="Medicine_MRP" placeholder="Enter Medicine MRP, for example 110.43" required="required">
+                    <br><br>
+                    <input type="text" name="Availability_rating" placeholder="Enter Availability Rating, from scale 0 to 1" required="required">
+                    <br><br>
+                    <label for="Side_Effect">Choose a Side Effect level:</label>
+        
+                    <select name="Side_Effect" id="Side_Effect">
+                      <option value=0>Mild</option>
+                      <option value=1>Critical</option>
+                    </select> 
+                    <br>
+                     <label for="Area_City">Choose a Tier City:</label>
+        
+                    <select name="Area_City" id="Area_City">
+                      <option value=2>Tier 1</option>
+                      <option value=1>Tier 2</option>
+                      <option value=0>Tier 3</option>
+                    </select> 
+                    <br><br><br>
+                    <button type="submit" class="btn" style="text-transform: capitalize;  "> Predict </button>
+                </form>
+                <br><br>
+                {{prediction_text}}
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ service-->
+  <!--cta-->
+
+  <!--cta-->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="section-title">
+            <h2 class="head-title lg-line">Counterfeit-Free <br>Ultimate Dream</h2>
+            <hr class="botm-line">
+            <p class="sec-para">Counterfeit and falsified drugs can have a serious impact upon human health. These drugs can also influence microbial resistance as well as have an effect on pharmaceutical companies’ profits and branding. Tackling counterfeit drugs is therefore an important issue which companies and governments alike are looking to combat.</p>
+            <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8 col-xs-12">
+          <div style="visibility: visible;" class="col-sm-9 more-features-box">
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>World of Counterfeit drugs</h3>
+                <p>India and China are major players within the world of counterfeit drugs. The countries manufacture large proportions of the world’s medicine and the extent of their reach means that counterfeit drugs can have a worldwide consumer base. Half of the deaths from the current opioid crisis in the US were from the synthetic heroin fentanyl, manufactured in China.</p>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>Impact of counterfeits</h3>
+                <p>Counterfeit drugs not only reduce profits for pharmaceutical companies. Once taken by patients, falsified drugs can cause health problems and even be fatal.
+In 2011, approximately 200 people died after taking contaminated heart medication in Pakistan.This seriously damages their sales and puts patients at risk. To combat this, Pfizer has embraced serialisation technologies, enabling their products to be tracked.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ about-->
+
+  
+  <!--contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h3>Contact Info</h3>
+          <div class="space"></div>
+             <h2 class="ser-title">Contact Me</h2>
+          <hr class="botm-line">
+       <p><i class="fa fa-linkedin fa-fw pull-left fa-2x"></i>https://www.linkedin.com/in/mahima-shetty-ai-ml/</p>
+          <div class="space"></div>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>msshetty237@gmail.com</p>
+          <div class="space"></div>
+          <p><i class="fa fa-instagram fa-fw pull-left fa-2x"></i>https://www.instagram.com/mahimahello/</p>
+        </div>
+        <div class="col-md-8 col-sm-8 marb20">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ contact-->
+  <!--footer-->
+  <footer id="footer">
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 marb20">
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer-line">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            © CounterstrikeCounterfeit_MahimaSShetty. All Rights Reserved
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medilab
+              -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ footer-->
+
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/jquery.easing.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/custom.js"></script>
+
+</body>
+
+</html>
