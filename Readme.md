@@ -46,4 +46,6 @@ For data model, I have used Random Forest Regressor after analyzing with various
 
 ## Model Done! Integration with website 😇
 Heroku App deployment
+<hr>
+
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/41589522/128636251-60f73340-d808-4926-a27f-79571a20b8c1.gif)
