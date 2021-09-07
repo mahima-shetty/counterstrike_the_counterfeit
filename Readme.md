@@ -26,7 +26,7 @@ In our dataset, we have good characteristics like
 This can be used to determine whether the employee will stay or not.
 
 # ML Model Making
-For data model, I have used Random Forest Classifier after analyzing with various ML models. 
+For data model, I have used Random Forest Regressor after analyzing with various ML models. 
 
 ![Random Forest 03](https://user-images.githubusercontent.com/41589522/128638871-b6d1eba3-b5bf-4c28-b9a5-af7c8d36669d.gif)
 ***Image Credit: Tensorflow Blog***
