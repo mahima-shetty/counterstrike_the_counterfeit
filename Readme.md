@@ -3,27 +3,32 @@ Designed by BootstrapMade.com
 # Description 
 
 
-### Organizations suffer a lot of man power loss. The reasons may be plenty if we brainstorm on this. But in terms of data, we have handsome number of characteristics which can determine whether the employee will stay or leave the organization
+### Counterfeit and falsified drugs can have a serious impact upon human health. These drugs can also influence microbial resistance as well as have an effect on pharmaceutical companies’ profits and branding. Tackling counterfeit drugs is therefore an important issue which companies and governments alike are looking to combat.
 
-These are the top reasons employees decide to quit their jobs:
-- Needing more of a challenge.
-- Looking for a higher salary.
-- Feeling uninspired.
-- Wanting to feel valued.
-- Seeking a better management relationship.
-- Searching for job growth and career advancement.
-- Needing more feedback or structure.
-- Wanting a different work environment.
+
+These are the top aspects in observing the :
+- Weight of counterfeit medicines
+- MRP of the medicine originalprice and counterfeit price
+- Type of Medicines
+- City Tier
+- Education of society
+- Awareness regarding counterfeit medicines
+- SideEffect Level of the medicines
 
 ***Credit: Indeed Website https://www.indeed.com/career-advice/career-development/reasons-employees-leave***
 
 In our dataset, we have good characteristics like 
-- Satisfaction level 
-- Last evaluation score 
-- Estimated number of projects 
-- Monthly average hours etc.
+- Weight of counterfeit medicines
+- MRP of the medicine originalprice and counterfeit price
+- Type of Medicines
+- City Tier
+- SideEffect Level 
 
-This can be used to determine whether the employee will stay or not.
+
+Counterfeit drugs not only reduce profits for pharmaceutical companies. 
+Once taken by patients, falsified drugs can cause health problems and even be fatal.
+
+
 
 # ML Model Making
 For data model, I have used Random Forest Regressor after analyzing with various ML models. 
@@ -34,15 +39,11 @@ For data model, I have used Random Forest Regressor after analyzing with various
 
 ## Scores in Final Model 😀
 
-***precision_score: 0.8717948717948718***
-
-***recall_score: 0.6631989596879063***
-
-***f1_score: 0.7533234859675036*** 
+~ 50% Accuracy
 
 
 <hr>
 
 ## Model Done! Integration with website 😇
-
+Heroku App deployment
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/41589522/128636251-60f73340-d808-4926-a27f-79571a20b8c1.gif)
