@@ -15,7 +15,7 @@ These are the top aspects in observing the :
 - Awareness regarding counterfeit medicines
 - SideEffect Level of the medicines
 
-***Credit: Indeed Website https://www.indeed.com/career-advice/career-development/reasons-employees-leave***
+***Credit: https://www.europeanpharmaceuticalreview.com/article/92194/the-impact-of-counterfeit-drugs-in-south-and-south-east-asia/***
 
 In our dataset, we have good characteristics like 
 - Weight of counterfeit medicines
