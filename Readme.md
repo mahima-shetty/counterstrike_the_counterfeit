@@ -78,6 +78,19 @@ Once taken by patients, falsified drugs can cause health problems and even be fa
 
 
 Model Tuning: 
+
+
+</br>
+![Random Forest 03](https://user-images.githubusercontent.com/41589522/128638871-b6d1eba3-b5bf-4c28-b9a5-af7c8d36669d.gif)
+***Image Credit: Tensorflow Blog***
+
+**Why Chose Random Forest Regressor?**
+As it is a regression problem, so thus we have to use REGRESSION MODELS. There are many regression models, Linear Regression, SVR, etc. But kind of data we are facing having variance issue, it is proven that Random Forest works best for Variance balancing. So I chose Random Forest Regressor.
+The random sampling technique used in selecting the optimal splitting feature lowers the correlation and hence, the variance of the regression trees. It improves the predictive capability of distinct trees in the forest.
+
+</br>
+
+ 
 For data model, I have used Random Forest Regressor after analyzing with various ML models. 
 
 **GridSearchCV**  
@@ -88,15 +101,18 @@ Tuning the hyperparamters  It helps to loop through predefined hyperparameters a
 Random search is the best parameter search technique when there are less number of dimensions. But we have good number of dimensions in hand. So in this grid Search CV, is better.
 
 
-</br>
-![Random Forest 03](https://user-images.githubusercontent.com/41589522/128638871-b6d1eba3-b5bf-4c28-b9a5-af7c8d36669d.gif)
-***Image Credit: Tensorflow Blog***
 <hr>
 
 ## Scores in Final Model 😀
 
+Managed after performing several analysis and model choosing + model tuning.
 ~ 50% Accuracy
 
+Accuracy would have be better
+if..
+- Feature Engineering — feeding better features to the learning algorithm.
+- Better Quality of data.
+- Increasing parameters and dimensions and selecting a more powerful model with good hyperparameters.
 
 <hr>
 
