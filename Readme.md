@@ -1,4 +1,7 @@
+<!-- https://img.shields.io/github/issues/mahima-shetty-ai-ml/counterstrike_the_counterfeit?logoColor=yellow&style=for-the-badge -->
+<!-- [![GitHub issues](https://img.shields.io/github/issues/mahima-shetty-ai-ml/counterstrike_the_counterfeit?logoColor=yellow&style=for-the-badge)](https://github.com/mahima-shetty-ai-ml/counterstrike_the_counterfeit/issues) -->
 
+<!-- ![Custom badge](https://img.shields.io/endpoint?color=yellow&label=Made%20with&logo=scikit-learn&style=for-the-badge) -->
 Designed by BootstrapMade.com
 # CounterStrike the Counterfeit
 ![44773825-CNBC-counterfeit-drugs-cover](https://user-images.githubusercontent.com/41589522/133074591-96714bb4-9878-4cc2-83e0-e3095e4dfb43.jpg)
