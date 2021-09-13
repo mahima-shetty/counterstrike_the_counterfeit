@@ -42,6 +42,8 @@ In our dataset, we have good characteristics like </br>
 **SideEffect Level** <br/> 
   SideEffect level also has a certain level in contributing to the Analysis and model making.
 
+# Machine Learning Model Making
+
 </br>
 Problem faced during the process.</br>
 1. Oversampling: 
@@ -57,12 +59,19 @@ For Variance</br>
 Variance can lead to overfitting, in which small fluctuations in the training set are magnified. A model with high-level variance may reflect random noise in the training data set instead of the target function. The model should be able to identify the underlying connections between the input data and variables of the output.
 </br>
 
+The encoded variables </br>
+**One Hot Encoding** - the categorical feature is not ordinal (like the Types of Medicines above)</br>
+
+
+**Label Encoding** - the categorical feature is ordinal (like the Tier City above)
+
+
 Counterfeit drugs not only reduce profits for pharmaceutical companies. 
 Once taken by patients, falsified drugs can cause health problems and even be fatal.
 
 
 
-# ML Model Making
+
 
 Model Tuning: 
 For data model, I have used Random Forest Regressor after analyzing with various ML models. 
