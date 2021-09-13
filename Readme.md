@@ -1,6 +1,6 @@
 
 Designed by BootstrapMade.com
-# Description 
+# CounterStrike the Counterfeit
 ![44773825-CNBC-counterfeit-drugs-cover](https://user-images.githubusercontent.com/41589522/133074591-96714bb4-9878-4cc2-83e0-e3095e4dfb43.jpg)
 
 
@@ -46,16 +46,20 @@ In our dataset, we have good characteristics like </br>
 
 </br>
 Problem faced during the process.</br>
-1. Oversampling: 
+
+1. Oversampling</br>
  Tried doing method of Random OverSampling, Random duplicancy of records in the minority class.
-2. Undersampling: 
+ 
+2. Undersampling</br>
  Tried doing method of Random UnderSampling, Random deletion of records in the majority class.
-3. Working Bias and Variance
+ 
+3. Working Bias and Variance</br>
  The data was prone to high Variance and Bias. This situation is considered bad as it will affect the prediction sales.
- For Bias</br> K fold resampling, in which a given data set is split into a K number of sections, or folds, where each fold is used as a testing set.</br>
+
+For **Bias**  </br> K fold resampling, in which a given data set is split into a K number of sections, or folds, where each fold is used as a testing set.</br>
 Bootstrapping, which involves iteratively resampling a dataset with replacement.
 
-For Variance</br>
+For **Variance**  </br>
 Variance can lead to overfitting, in which small fluctuations in the training set are magnified. A model with high-level variance may reflect random noise in the training data set instead of the target function. The model should be able to identify the underlying connections between the input data and variables of the output.
 </br>
 
@@ -76,6 +80,15 @@ Once taken by patients, falsified drugs can cause health problems and even be fa
 Model Tuning: 
 For data model, I have used Random Forest Regressor after analyzing with various ML models. 
 
+**GridSearchCV**  
+
+Tuning the hyperparamters  It helps to loop through predefined hyperparameters and fit your estimator (model) on your training set. So, in the end, you can select the best parameters from the listed hyperparameters.
+
+**Why chose GridSearchCV over RandomSearch CV?**
+Random search is the best parameter search technique when there are less number of dimensions. But we have good number of dimensions in hand. So in this grid Search CV, is better.
+
+
+</br>
 ![Random Forest 03](https://user-images.githubusercontent.com/41589522/128638871-b6d1eba3-b5bf-4c28-b9a5-af7c8d36669d.gif)
 ***Image Credit: Tensorflow Blog***
 <hr>
