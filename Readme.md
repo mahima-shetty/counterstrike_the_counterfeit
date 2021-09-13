@@ -21,11 +21,16 @@ These are the top aspects in observing the :
 <hr>
 According to some estimates, more than 10 percent of all pharmaceuticals in the global supply chain are counterfeit. In some countries, fake pharmaceuticals account for 70 percent of all drugs in the supply chain.
 </br>
+
 In our dataset, we have good characteristics like </br>
-**Weight of counterfeit medicines** <br/>
+
+
+  **Weight of counterfeit medicines**  
   Weight of the counterfeit medicines are **moderately** contributed to the EDA and model decision making. We are nearly failed to take the weight of the counterfeit medicine as primary feature to call for precision of the value. </br>
+  
 **MRP of the medicine originalprice and counterfeit price** <br/>
   MRP of the counterfeit medicines are **highly** contributed to the EDA and model decision making. We can see the comparable results in MRP as well as in counterfeit sales. Higher the MRP, so thus can be seen in the model decision making.<br/>
+  
 **City Tier** <br/>
   City Tier is the feature which shown a **very high** correlation with respect to others. It can be seen that Tier 3 cities have a high rate of counterfeit medicines sales.
   India: Indian pharmaceutical companies have suggested that in India’s major cities, one in five strips of
@@ -33,6 +38,7 @@ In our dataset, we have good characteristics like </br>
   estimates that spurious drugs have grown from 10% to 20% of the total market.
   Nigeria: Nigerian health officials estimate that 70% of drugs in circulation in the country are either fake or
   adulterated.<br/>
+  
 **SideEffect Level** <br/> 
   SideEffect level also has a certain level in contributing to the Analysis and model making.
 
