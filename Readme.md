@@ -81,7 +81,12 @@ Model Tuning:
 
 
 </br>
-![Random Forest 03](https://user-images.githubusercontent.com/41589522/128638871-b6d1eba3-b5bf-4c28-b9a5-af7c8d36669d.gif)
+<!-- ![Random Forest 03](https://user-images.githubusercontent.com/41589522/128638871-b6d1eba3-b5bf-4c28-b9a5-af7c8d36669d.gif) -->
+
+![Random Forest 03](https://user-images.githubusercontent.com/41589522/133103239-074eb452-203b-440e-8db7-89d98f15d55d.gif)
+
+
+
 ***Image Credit: Tensorflow Blog***
 
 **Why Chose Random Forest Regressor?**
