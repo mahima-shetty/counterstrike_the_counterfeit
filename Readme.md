@@ -7,6 +7,10 @@ Designed by BootstrapMade.com
 ![44773825-CNBC-counterfeit-drugs-cover](https://user-images.githubusercontent.com/41589522/133074591-96714bb4-9878-4cc2-83e0-e3095e4dfb43.jpg)
 
 
+
+
+https://counterstrike-the-counterfeit.herokuapp.com/
+
 ### Counterfeit and falsified drugs can have a serious impact upon human health. These drugs can also influence microbial resistance as well as have an effect on pharmaceutical companies’ profits and branding. Tackling counterfeit drugs is therefore an important issue which companies and governments alike are looking to combat.
 
 
